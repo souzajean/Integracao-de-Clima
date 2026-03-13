@@ -68,6 +68,7 @@ O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações e
 ```
 /clima
 ```
+<br>
 
 ### 2️⃣ Content Modifier – Definição da cidade
 
@@ -79,6 +80,11 @@ latitude  = -23.68
 longitude = -46.62
 
 Essas coordenadas representam a cidade de São Paulo.
+
+### Adicionando o Content Modifier
+![Fluxo](imagens/Screenshot_6.png)
+
+<br>
 
 ### 3️⃣ Request Reply – Consumo da API
 
