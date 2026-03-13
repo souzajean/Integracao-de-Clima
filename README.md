@@ -93,11 +93,19 @@ Renomeamos o Content Modifier
 General
 Name: cidade
 ```
-
+Em Property adicionamos
 ```
 Exchange Property
 create   -   longitude   -   Constant   -   -46.62
 create   -   latitude   -    Constant   -    -23.68
+```
+
+<br>
+
+### Renomeamos o Receiver
+![Fluxo](imagens/Screenshot_8.png)
+```
+WeatherAPI
 ```
 
 <br>
@@ -107,6 +115,11 @@ create   -   latitude   -    Constant   -    -23.68
 O CPI realiza uma chamada HTTP para a API Open-Meteo, buscando as condições climáticas atuais.
 
 O retorno é recebido no formato JSON.
+
+### Adicionamos o Request Reply
+![Fluxo](imagens/Screenshot_9.png)
+
+<br>
 
 ### 4️⃣ JSON → XML Converter
 
