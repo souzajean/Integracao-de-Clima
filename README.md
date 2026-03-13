@@ -151,6 +151,23 @@ Exemplo simplificado do XML gerado:
 </root>
 ```
 
+<br>
+
+### Adicionando o JSON → XML Converter
+![Fluxo](imagens/Screenshot_12.png)
+
+<br>
+
+### Configurando o JSON → XML Converter
+![Fluxo](imagens/Screenshot_13.png)
+Em Processing
+```
+Add XML Root Element
+Name: root
+```
+
+<br>
+
 ### 5️⃣ Router – Classificação Inteligente do Clima
 
 O Router analisa os dados recebidos e classifica o clima em diferentes cenários com base em:
