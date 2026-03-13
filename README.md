@@ -251,8 +251,19 @@ Body:
 </Response>
 ```
 
+<br>
 
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_19.png)
 
+<br>
+
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_20.png)
+<br>
+
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_21.png)
 
 
 
