@@ -1,6 +1,22 @@
 # :sun_behind_rain_cloud: SAP BTP Integration Suite – Integração de Clima (Cenário IoT)
 ## :pushpin: Visão Geral
 
+🌦	:sun_behind_rain_cloud: <br>
+📌	:pushpin: <br>
+🌐	:globe_with_meridians: <br>
+🏗	:building_construction: <br>
+☀️	:sunny: <br>
+🌥	:sun_behind_cloud: <br>
+🌫	:fog: <br>
+❄	:snowflake: <br>
+🌧	:cloud_with_rain: <br>
+📦	:package: <br>
+🚀	:rocket: <br> 
+💡	:bulb: <br>
+✅	:white_check_mark: <br>
+
+
+
 Este projeto demonstra um cenário de integração utilizando o SAP Integration Suite (Cloud Integration) para consumir dados de clima em tempo real através de uma API pública de meteorologia.
 
 O objetivo é simular um cenário real de logística ou IoT, onde um sistema precisa verificar as condições climáticas antes de realizar operações como:
