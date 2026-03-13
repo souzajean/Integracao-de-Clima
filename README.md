@@ -59,7 +59,7 @@ Weather-Condition-Integration
 
 <br>
 
-### 1️⃣ HTTPS Sender
+### 1️⃣ :one:  HTTPS Sender
 
 O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço de clima.
 ### Configurando o Endpoint
@@ -196,7 +196,7 @@ QUENTE	≥ 25°C <br>
 
 <br>
 
-### Adicionamos o Adapter HTTP
+### Definindo a Route 1 Default
 ![Fluxo](imagens/Screenshot_15.png)
 
 <br>
