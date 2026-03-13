@@ -59,7 +59,7 @@ Weather-Condition-Integration
 
 <br>
 
-### 1️⃣ :one:  HTTPS Sender
+### :one:  HTTPS Sender
 
 O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço de clima.
 ### Configurando o Endpoint
@@ -70,7 +70,7 @@ O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações e
 ```
 <br>
 
-### 2️⃣ Content Modifier – Definição da cidade
+### :two: Content Modifier – Definição da cidade
 
 Nesta etapa são definidas as coordenadas geográficas da cidade consultada.
 
@@ -110,7 +110,7 @@ WeatherAPI
 
 <br>
 
-### 3️⃣ Request Reply – Consumo da API
+### :three: Request Reply – Consumo da API
 
 O CPI realiza uma chamada HTTP para a API Open-Meteo, buscando as condições climáticas atuais.
 
@@ -137,7 +137,7 @@ Authentication: None
 
 <br>
 
-### 4️⃣ JSON → XML Converter
+### :four: JSON → XML Converter
 
 Como o SAP CPI trabalha melhor com XML em expressões XPath, o JSON retornado pela API é convertido para XML.
 
@@ -168,7 +168,7 @@ Name: root
 
 <br>
 
-### 5️⃣ Router – Classificação Inteligente do Clima
+### :five: Router – Classificação Inteligente do Clima
 
 O Router analisa os dados recebidos e classifica o clima em diferentes cenários com base em:
 
@@ -204,10 +204,13 @@ QUENTE	≥ 25°C <br>
 ### Configuração do Request Reply
 ![Fluxo](imagens/Screenshot_16.png)
 
+<br>
 
-📊 Cenários Detectados
+### :six:  Configurando o a saida com erro no Content Modifier
 
-## O iFlow consegue identificar automaticamente situações como:
+
+### :seven:  Configurando o a saida com erro no Content Modifier
+
 
 ☀️ Sol quente <br>
 
@@ -236,6 +239,9 @@ Cada cenário gera uma mensagem específica para o sistema de logística.
     <status>AGRADAVEL</status>
 </Response>
 ```
+
+
+
 
 🧠 Lógica de Negócio
 
