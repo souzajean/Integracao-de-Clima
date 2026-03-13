@@ -200,25 +200,6 @@ automação de rotas de entrega
 
 integração com sistemas IoT
 
-✅ Esse tipo de projeto demonstra conhecimentos em:
-
-SAP BTP
-
-Integração com APIs externas
-
-Design de iFlows
-
-Processamento de dados em tempo real
-
-💡 Dica para seu portfólio (muito forte):
-
-Esse projeto mostra que você sabe trabalhar com:
-
-APIs públicas
-
-lógica de decisão
-
-integração real
 
 
 
