@@ -1,7 +1,7 @@
 # :sun_behind_rain_cloud: SAP BTP Integration Suite – Integração de Clima (Cenário IoT)
 ## :pushpin: Visão Geral
 
-🌦	:sun_behind_rain_cloud: <br>
+:sun_behind_rain_cloud:  :sun_behind_rain_cloud: <br>
 📌	:pushpin: <br>
 🌐	:globe_with_meridians: <br>
 🏗	:building_construction: <br>
