@@ -206,11 +206,11 @@ QUENTE	≥ 25°C <br>
 
 <br>
 
-### :six:  Configurando o a saida com erro no Content Modifier
+### :six:  Content Modifier – Status	Temperatura
+<br>
 
-
-### :seven:  Configurando o a saida com erro no Content Modifier
-
+### :seven: Content Modifier
+<br>
 
 ☀️ Sol quente <br>
 
