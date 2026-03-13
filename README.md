@@ -54,8 +54,11 @@ IntegracaodeClima
 ```
 Weather-Condition-Integration
 ```
-
+<br>
 :gear: Etapas da Integração
+
+<br>
+
 ### 1️⃣ HTTPS Sender
 
 O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço de clima.
@@ -82,13 +85,15 @@ O retorno é recebido no formato JSON.
 Como o SAP CPI trabalha melhor com XML em expressões XPath, o JSON retornado pela API é convertido para XML.
 
 Exemplo simplificado do XML gerado:
-
+```
 <root>
    <current_weather>
       <temperature>22.5</temperature>
       <weathercode>3</weathercode>
    </current_weather>
 </root>
+```
+
 ### 5️⃣ Router – Classificação Inteligente do Clima
 
 O Router analisa os dados recebidos e classifica o clima em diferentes cenários com base em:
@@ -99,47 +104,43 @@ temperatura
 
 Exemplos de regras implementadas:
 
-☀️ Sol agradável
-weathercode = 0
-temperature > 15
-temperature <= 25
-🌥 Nublado frio
-weathercode = 3
-temperature <= 15
-🌫 Névoa
-weathercode = 45 ou 48
-❄ Neve
-weathercode entre 71 e 86
-🌧 Chuva
-weathercode entre 51 e 82
+☀️ Sol agradável weathercode = 0 temperature > 15 temperature <= 25 <br>
+🌥 Nublado frio weathercode = 3 temperature <= 15 <br>
+🌫 Névoa weathercode = 45 ou 48 <br>
+❄ Neve weathercode entre 71 e 86 <br>
+🌧 Chuva weathercode entre 51 e 82 <br>
 
 Cada condição também considera faixas de temperatura:
 
-Status	Temperatura
-FRIO	≤ 15°C
-AGRADÁVEL	15°C – 25°C
-QUENTE	≥ 25°C
-📊 Exemplos de Cenários Detectados
+Status	Temperatura <br>
+FRIO	≤ 15°C <br>
+AGRADÁVEL	15°C – 25°C <br>
+QUENTE	≥ 25°C <br>
+
+
+📊 Cenários Detectados
 
 ## O iFlow consegue identificar automaticamente situações como:
 
-☀️ Sol quente
+☀️ Sol quente <br>
 
-☀️ Sol frio
+☀️ Sol frio <br>
 
-🌥 Nublado agradável
+🌥 Nublado agradável <br>
 
-🌫 Névoa
+🌫 Névoa <br>
 
-❄ Neve
+❄ Neve <br>
 
-🌧 Chuva
+🌧 Chuva <br>
 
-🌤 Parcialmente nublado
+🌤 Parcialmente nublado <br>
 
 Cada cenário gera uma mensagem específica para o sistema de logística.
 
 📦 Exemplo de Resposta da Integração
+
+```
 <Response>
     <weather>CLOUDY</weather>
     <city>São Paulo</city>
@@ -147,6 +148,8 @@ Cada cenário gera uma mensagem específica para o sistema de logística.
     <temperature>22.3</temperature>
     <status>AGRADAVEL</status>
 </Response>
+```
+
 🧠 Lógica de Negócio
 
 O fluxo aplica uma lógica de decisão baseada em:
