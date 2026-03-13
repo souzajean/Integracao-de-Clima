@@ -230,9 +230,23 @@ Body:
 ### Adicionar Content Modifiey 
 ![Fluxo](imagens/Screenshot_18.png)
 Vamos renomear cada Content Modifiy
-```
 
 ```
+Content Modifier - NevoaAGRADAVEL
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Névoa leve com temperatura moderada. Atenção à visibilidade.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
 
 
 
@@ -268,7 +282,18 @@ Vamos renomear cada Content Modifiy
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ☀️ Sol quente <br>
 
