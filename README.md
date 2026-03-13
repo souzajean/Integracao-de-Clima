@@ -1,4 +1,4 @@
-### 🌦 SAP BTP Integration Suite – Integração de Clima (Cenário IoT)
+# 🌦 SAP BTP Integration Suite – Integração de Clima (Cenário IoT)
 ## 📌 Visão Geral
 
 Este projeto demonstra um cenário de integração utilizando o SAP Integration Suite (Cloud Integration) para consumir dados de clima em tempo real através de uma API pública de meteorologia.
@@ -166,7 +166,7 @@ ajustar rotas
 
 planejar operações externas
 
-🚀 Tecnologias Utilizadas
+:rocket: Tecnologias Utilizadas
 
 SAP BTP Integration Suite
 
