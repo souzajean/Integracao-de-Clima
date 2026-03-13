@@ -264,9 +264,18 @@ Body:
 
 ### Adicionar Content Modifier
 ![Fluxo](imagens/Screenshot_21.png)
+<br>
 
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_22.png)
 
+<br>
 
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_23.png)
+
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_24.png)
 
 
 
