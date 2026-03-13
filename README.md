@@ -30,23 +30,18 @@ Exemplo real:
 https://api.open-meteo.com/v1/forecast?latitude=-23.68&longitude=-46.62&current_weather=true
 
 
-# 🏗 Arquitetura do iFlow
+# :building_construction: Arquitetura do iFlow
 
 O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaixo.
+### Criando nosso Iflow
+![Fluxo](imagens/Screenshot_1.png)
 
-HTTPS Sender
-     ↓
-Content Modifier (definir cidade / coordenadas)
-     ↓
-Request Reply (Open-Meteo API)
-     ↓
-JSON to XML Converter
-     ↓
-Router (classificação do clima)
-     ↓
-Content Modifier (montagem da resposta)
-     ↓
-Response Message
+```
+PollEnrichwithFTP
+```
+<br>
+
+
 ⚙ Etapas da Integração
 ### 1️⃣ HTTPS Sender
 
