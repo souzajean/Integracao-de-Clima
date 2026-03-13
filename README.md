@@ -29,17 +29,8 @@ Exemplo real:
 
 https://api.open-meteo.com/v1/forecast?latitude=-23.68&longitude=-46.62&current_weather=true
 
-A API retorna dados como:
 
-temperatura atual
-
-código meteorológico
-
-velocidade do vento
-
-condições climáticas
-
-### 🏗 Arquitetura do iFlow
+# 🏗 Arquitetura do iFlow
 
 O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaixo.
 
