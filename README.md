@@ -202,12 +202,25 @@ QUENTE	≥ 25°C <br>
 <br>
 
 ### :six:  Content Modifier – Status	Erro
+Quando houver erro na temperatura, o mesmo vai retornar um XML
 ![Fluxo](imagens/Screenshot_16.png)
+
+```
+Type: Constant
+```
+
+```
+Body:
+<Response>
+    <message> Erro na temperatura</message>
+</Response>
+```
 
 <br>
 
-### 17
+### Configurando o Body 
 ![Fluxo](imagens/Screenshot_17.png)
+
 
 <br>
 
