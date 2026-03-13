@@ -121,6 +121,22 @@ O retorno é recebido no formato JSON.
 
 <br>
 
+### Adicionamos o Adapter HTTP
+![Fluxo](imagens/Screenshot_10.png)
+
+<br>
+
+### Configuração do Request Reply
+![Fluxo](imagens/Screenshot_11.png)
+```
+Address: https://api.open-meteo.com/v1/forecast?latitude=${property.latitude}&longitude=${property.longitude}&current_weather=true
+Proxy Type: Internet
+Method: GET
+Authentication: None
+```
+
+<br>
+
 ### 4️⃣ JSON → XML Converter
 
 Como o SAP CPI trabalha melhor com XML em expressões XPath, o JSON retornado pela API é convertido para XML.
