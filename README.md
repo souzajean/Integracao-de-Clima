@@ -191,6 +191,19 @@ FRIO	≤ 15°C <br>
 AGRADÁVEL	15°C – 25°C <br>
 QUENTE	≥ 25°C <br>
 
+### Adicionamos o Router
+![Fluxo](imagens/Screenshot_14.png)
+
+<br>
+
+### Adicionamos o Adapter HTTP
+![Fluxo](imagens/Screenshot_15.png)
+
+<br>
+
+### Configuração do Request Reply
+![Fluxo](imagens/Screenshot_16.png)
+
 
 📊 Cenários Detectados
 
