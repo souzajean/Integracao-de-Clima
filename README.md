@@ -35,12 +35,25 @@ https://api.open-meteo.com/v1/forecast?latitude=-23.68&longitude=-46.62&current_
 O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaixo.
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
+<br>
 
+### Criando o Integration Flow
+![Fluxo](imagens/Screenshot_2.png)
 ```
 IntegracaodeClima
 ```
 <br>
 
+### Adicionando o Artefato do Integration Flow
+![Fluxo](imagens/Screenshot_3.png)
+
+<br>
+
+### Criando o Integration Flow
+![Fluxo](imagens/Screenshot_2.png)
+```
+Weather-Condition-Integration
+```
 
 ⚙ Etapas da Integração
 ### 1️⃣ HTTPS Sender
