@@ -227,6 +227,48 @@ Body:
 
 ### :seven: Content Modifier
 <br>
+### Adicionar Content Modifiey 
+![Fluxo](imagens/Screenshot_18.png)
+Vamos renomear cada Content Modifiy
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ☀️ Sol quente <br>
 
