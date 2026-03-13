@@ -229,7 +229,7 @@ Body:
 
 <br>
 
-### Adicionar Content Modifiey 
+### Adicionar Content Modifier
 ![Fluxo](imagens/Screenshot_18.png)
 
 Vamos renomear cada Content Modifiy
