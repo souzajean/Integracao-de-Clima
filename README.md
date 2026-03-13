@@ -50,7 +50,7 @@ IntegracaodeClima
 <br>
 
 ### Criando o Integration Flow
-![Fluxo](imagens/Screenshot_2.png)
+![Fluxo](imagens/Screenshot_4.png)
 ```
 Weather-Condition-Integration
 ```
@@ -62,6 +62,12 @@ Weather-Condition-Integration
 ### 1️⃣ HTTPS Sender
 
 O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço de clima.
+### Configurando o Endpoint
+![Fluxo](imagens/Screenshot_5.png)
+
+```
+/clima
+```
 
 ### 2️⃣ Content Modifier – Definição da cidade
 
