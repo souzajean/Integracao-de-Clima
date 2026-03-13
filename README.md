@@ -202,9 +202,16 @@ QUENTE	≥ 25°C <br>
 <br>
 
 ### :six:  Content Modifier – Status	Erro
+
+
 Quando houver erro na temperatura, o mesmo vai retornar um XML
+### Adicionando o Content Modifier
 ![Fluxo](imagens/Screenshot_16.png)
 
+<br>
+
+### Configurando o Body 
+![Fluxo](imagens/Screenshot_17.png)
 ```
 Type: Constant
 ```
@@ -215,12 +222,6 @@ Body:
     <message> Erro na temperatura</message>
 </Response>
 ```
-
-<br>
-
-### Configurando o Body 
-![Fluxo](imagens/Screenshot_17.png)
-
 
 <br>
 
@@ -254,6 +255,34 @@ Cada cenário gera uma mensagem específica para o sistema de logística.
     <status>AGRADAVEL</status>
 </Response>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
