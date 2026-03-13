@@ -55,7 +55,7 @@ IntegracaodeClima
 Weather-Condition-Integration
 ```
 
-⚙ Etapas da Integração
+:gear: Etapas da Integração
 ### 1️⃣ HTTPS Sender
 
 O fluxo é iniciado através de um endpoint HTTPS, permitindo que aplicações externas consultem o serviço de clima.
