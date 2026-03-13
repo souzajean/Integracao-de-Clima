@@ -37,7 +37,7 @@ O fluxo foi desenvolvido no SAP Cloud Integration (CPI) seguindo as etapas abaix
 ![Fluxo](imagens/Screenshot_1.png)
 
 ```
-PollEnrichwithFTP
+IntegracaodeClima
 ```
 <br>
 
