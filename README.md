@@ -86,6 +86,11 @@ Essas coordenadas representam a cidade de São Paulo.
 
 <br>
 
+### Configurando o Content Modifier - Property
+![Fluxo](imagens/Screenshot_7.png)
+
+<br>
+
 ### 3️⃣ Request Reply – Consumo da API
 
 O CPI realiza uma chamada HTTP para a API Open-Meteo, buscando as condições climáticas atuais.
