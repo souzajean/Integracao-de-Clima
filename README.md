@@ -88,6 +88,17 @@ Essas coordenadas representam a cidade de São Paulo.
 
 ### Configurando o Content Modifier - Property
 ![Fluxo](imagens/Screenshot_7.png)
+Renomeamos o Content Modifier 
+```
+General
+Name: cidade
+```
+
+```
+Exchange Property
+create   -   longitude   -   Constant   -   -46.62
+create   -   latitude   -    Constant   -    -23.68
+```
 
 <br>
 
