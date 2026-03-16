@@ -306,7 +306,7 @@ Expresion Type: XML
 ### Agora vamos repetir para os outros climas para o Content-Modifier, e depois conectar conforme acima.
 ![Fluxo](imagens/Screenshot_22.png)
 
-☀️ Sol quente <br>
+:sunny: Sol quente <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
@@ -323,7 +323,7 @@ Body:
 </Response>
 ```
 
-:sun_behind_cloud:  Sol frio <br>
+:sunny: Sol frio <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -340,7 +340,7 @@ Body:
 </Response>
 ```
 
-☀️ Sol agradável <br>
+:sunny: Sol agradável <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
