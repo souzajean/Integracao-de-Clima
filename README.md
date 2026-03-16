@@ -615,7 +615,7 @@ Body:
 ```
 
 <br><br>
-### Resuktado Postman
+### Resultado Postman
 ![Fluxo](imagens/Screenshot_23.png)
 ```
 <Response>
@@ -635,5 +635,13 @@ Body:
 # 👨‍💻 Author Jean Cardoso de Souza
 
 
-# 🔗 LinkedIn
-### https://www.linkedin.com/in/jean-cardoso-de-souza
+<br><br>
+
+## 📦 Exemplo prático – iFlow para baixar
+
+📦 [Download do iFlow – Integracao-de-Clima](https://github.com/souzajean/Integracao-de-Clima/raw/main/Package/Integracao-de-Clima.zip)
+
+
+
+
+> O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
