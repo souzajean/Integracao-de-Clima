@@ -389,19 +389,211 @@ Body:
 </Response>
 ```
 
-🌫 Névoa <br>
+🌫 Névoa quente <br>
 ```
-```
-❄ Neve <br>
-```
-```
-🌧 Chuva <br>
-```
-```
-🌤 Parcialmente nublado <br>
-```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Névoa com temperatura alta. Umidade elevada e visibilidade reduzida.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
 ```
 
+🌫 Névoa frio <br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Névoa com temperatura baixa. Visibilidade reduzida.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌫 Névoa agradável<br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Névoa leve com temperatura moderada. Atenção à visibilidade.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+
+❄ Neve agradável<br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Neve leve com temperatura moderada. Operações podem ser afetadas.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+❄ Neve frio<br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Neve com temperatura baixa. Alto risco para deslocamento e operações externas.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+❄ Neve quente<br>
+```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Neve com temperatura relativamente alta. Possível derretimento de neve.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌧 Chuva agradável<br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Chuva leve com temperatura agradável. Operações podem continuar com atenção.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌧 Chuva frio<br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Clima frio com chuva. Recomenda-se cautela em operações externas.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌧 Chuva quente<br>
+```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Clima quente com chuva. Possibilidade de pancadas fortes e alta umidade.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+
+🌤 Parcialmente nublado agradável<br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Poucas nuvens e temperatura agradável. Condições favoráveis.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌤 Parcialmente nublado frio<br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Poucas nuvens com temperatura fria. Clima estável.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌤 Parcialmente nublado quente<br>
+```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Poucas nuvens e calor elevado. Sensação térmica alta.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
 
 <br><br>
 ### TESTE
