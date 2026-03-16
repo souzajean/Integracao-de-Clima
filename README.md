@@ -234,10 +234,6 @@ Body:
 
 Vamos renomear cada Content Modifiy
 
-```
-
-```
-
 <br>
 
 ### Configurando o Property Content Modifier
@@ -251,7 +247,7 @@ Create - temperature - XPath - /root/current_weather/temperature - java.lang.Str
 
 <br>
 
-### Adicionar Content Modifier
+### Configurando o Body Content Modifier
 ![Fluxo](imagens/Screenshot_20.png)
 ```
 Message Body
@@ -268,19 +264,19 @@ Body:
 
 <br>
 
-### Adicionar Content Modifier
+### TESTE
 ![Fluxo](imagens/Screenshot_21.png)
 <br>
 
-### Adicionar Content Modifier
+### TESTE
 ![Fluxo](imagens/Screenshot_22.png)
 
 <br>
 
-### Adicionar Content Modifier
+### TESTE
 ![Fluxo](imagens/Screenshot_23.png)
 
-### Adicionar Content Modifier
+### TESTE
 ![Fluxo](imagens/Screenshot_24.png)
 
 
