@@ -357,7 +357,7 @@ Body:
 </Response>
 ```
 
-🌥 Nublado agradável <br>
+:cloud: Nublado agradável <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -374,7 +374,7 @@ Body:
 </Response>
 ```
 
-🌥 Nublado Frio <br>
+:cloud: Nublado Frio <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -391,7 +391,7 @@ Body:
 </Response>
 ```
 
-🌥 Nublado quente <br>
+:cloud: Nublado quente <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
@@ -408,7 +408,7 @@ Body:
 </Response>
 ```
 
-🌫 Névoa quente <br>
+:fog: Névoa quente <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
@@ -425,7 +425,7 @@ Body:
 </Response>
 ```
 
-🌫 Névoa frio <br>
+:fog: Névoa frio <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -442,7 +442,7 @@ Body:
 </Response>
 ```
 
-🌫 Névoa agradável<br>
+:fog: Névoa agradável<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -460,7 +460,7 @@ Body:
 ```
 
 
-❄ Neve agradável<br>
+:snowflake: Neve agradável<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -477,7 +477,7 @@ Body:
 </Response>
 ```
 
-❄ Neve frio<br>
+:snowflake: Neve frio<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -494,7 +494,7 @@ Body:
 </Response>
 ```
 
-❄ Neve quente<br>
+:snowflake: Neve quente<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
@@ -563,7 +563,7 @@ Body:
 ```
 
 
-🌤 Parcialmente nublado agradável<br>
+:sun_small_cloud: Parcialmente nublado agradável<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -580,7 +580,7 @@ Body:
 </Response>
 ```
 
-🌤 Parcialmente nublado frio<br>
+:sun_small_cloud: Parcialmente nublado frio<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -597,7 +597,7 @@ Body:
 </Response>
 ```
 
-🌤 Parcialmente nublado quente<br>
+:sun_small_cloud: Parcialmente nublado quente<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
