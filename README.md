@@ -338,6 +338,24 @@ Body:
     <status>${property.statustemperature}</status>
 </Response>
 ```
+
+☀️ Sol agradável <br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu limpo e temperatura agradável. Condições ideais para operações.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
 🌥 Nublado agradável <br>
 ```
 Exchange Property
