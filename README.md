@@ -322,7 +322,8 @@ Body:
     <status>${property.statustemperature}</status>
 </Response>
 ```
-☀️ Sol frio <br>
+
+:sun_behind_cloud:  Sol frio <br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
