@@ -627,14 +627,6 @@ Body:
 </Response>
 ```
 
-
-
-
-
-
-# 👨‍💻 Author Jean Cardoso de Souza
-
-
 <br><br>
 
 ## 📦 Exemplo prático – iFlow para baixar
