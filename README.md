@@ -235,10 +235,25 @@ Body:
 Vamos renomear cada Content Modifiy
 
 ```
+
+```
+
+<br>
+
+### Configurando o Property Content Modifier
+![Fluxo](imagens/Screenshot_19.png)
+```
 Content Modifier - NevoaAGRADAVEL
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
 Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+```
+
+<br>
+
+### Adicionar Content Modifier
+![Fluxo](imagens/Screenshot_20.png)
+```
 Message Body
 Type: Expression
 Body: 
@@ -251,15 +266,6 @@ Body:
 </Response>
 ```
 
-<br>
-
-### Adicionar Content Modifier
-![Fluxo](imagens/Screenshot_19.png)
-
-<br>
-
-### Adicionar Content Modifier
-![Fluxo](imagens/Screenshot_20.png)
 <br>
 
 ### Adicionar Content Modifier
