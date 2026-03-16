@@ -511,7 +511,7 @@ Body:
 </Response>
 ```
 
-🌧 Chuva agradável<br>
+:sun_behind_rain_cloud: Chuva agradável<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -528,7 +528,7 @@ Body:
 </Response>
 ```
 
-🌧 Chuva frio<br>
+:sun_behind_rain_cloud: Chuva frio<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -545,7 +545,7 @@ Body:
 </Response>
 ```
 
-🌧 Chuva quente<br>
+:sun_behind_rain_cloud: Chuva quente<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
