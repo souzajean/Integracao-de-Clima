@@ -615,88 +615,17 @@ Body:
 ```
 
 <br><br>
-### TESTE
+### Resuktado Postman
 ![Fluxo](imagens/Screenshot_23.png)
-
-### TESTE
-![Fluxo](imagens/Screenshot_24.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Poucas nuvens e temperatura agradável. Condições favoráveis.</message>
+    <temperature>28.5</temperature>
+    <status>AGRADAVEL</status>
+</Response>
+```
 
 
 
@@ -708,18 +637,3 @@ Body:
 
 # 🔗 LinkedIn
 ### https://www.linkedin.com/in/jean-cardoso-de-souza
-
-
-🌦	:sun_behind_rain_cloud: <br>
-📌	:pushpin: <br>
-🌐	:globe_with_meridians: <br>
-🏗	:building_construction: <br>
-☀️	:sunny: <br>
-🌥	:sun_behind_cloud: <br>
-🌫	:fog: <br>
-❄	:snowflake: <br>
-🌧	:cloud_with_rain: <br>
-📦	:package: <br>
-🚀	:rocket: <br> 
-💡	:bulb: <br>
-✅	:white_check_mark: <br>
