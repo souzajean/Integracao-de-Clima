@@ -248,19 +248,7 @@ Create - temperature - XPath - /root/current_weather/temperature - java.lang.Str
 <br>
 
 ### Configurando o Body Content Modifier
-![Fluxo](imagens/Screenshot_20.png)
-```
-Message Body
-Type: Expression
-Body: 
-<Response>
-    <weather>CLOUDY</weather>
-    <city>São Paulo</city>
-    <message>Névoa leve com temperatura moderada. Atenção à visibilidade.</message>
-    <temperature>${property.temperature}</temperature>
-    <status>${property.statustemperature}</status>
-</Response>
-```
+
 Cada cenário gera uma mensagem específica para o sistema de logística.
 
 📦 Exemplo de Resposta da Integração
@@ -273,6 +261,22 @@ Cada cenário gera uma mensagem específica para o sistema de logística.
     <temperature>22.3</temperature>
     <status>AGRADAVEL</status>
 </Response>
+```
+
+![Fluxo](imagens/Screenshot_20.png)
+
+```
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Névoa leve com temperatura moderada. Atenção à visibilidade.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
 <br>
 
 ### Adicionando as Rotas
@@ -290,6 +294,7 @@ QUENTE
 Expresion Type: XML
 /root/current_weather/weathercode = 45 or /root/current_weather/weathercode = 48 and /root/current_weather/temperature >= 25
 ```
+
 ```
 AGRADAVEL
 Expresion Type: XML
