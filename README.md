@@ -303,11 +303,107 @@ Expresion Type: XML
 
 <br>
 
-### TESTE
+### Agora vamos repetir para os outros climas para o Content-Modifier, e depois conectar conforme acima.
 ![Fluxo](imagens/Screenshot_22.png)
 
-<br>
+☀️ Sol quente <br>
+```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu limpo e temperatura elevada. Atenção ao calor intenso.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+☀️ Sol frio <br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu limpo com temperatura fria. Condições estáveis para operações.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+🌥 Nublado agradável <br>
+```
+Exchange Property
+Create - statustemperature - Constant - AGRADAVEL
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu nublado com temperatura confortável. Clima estável.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
 
+🌥 Nublado Frio <br>
+```
+Exchange Property
+Create - statustemperature - Constant - FRIO
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Poucas nuvens com temperatura fria. Clima estável.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌥 Nublado quente <br>
+```
+Exchange Property
+Create - statustemperature - Constant - QUENTE
+Create - temperature - XPath - /root/current_weather/temperature - java.lang.String
+Message Body
+Type: Expression
+Body: 
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu nublado com temperatura elevada. Sensação de abafamento.</message>
+    <temperature>${property.temperature}</temperature>
+    <status>${property.statustemperature}</status>
+</Response>
+```
+
+🌫 Névoa <br>
+```
+```
+❄ Neve <br>
+```
+```
+🌧 Chuva <br>
+```
+```
+🌤 Parcialmente nublado <br>
+```
+```
+
+
+<br><br>
 ### TESTE
 ![Fluxo](imagens/Screenshot_23.png)
 
@@ -355,19 +451,7 @@ Expresion Type: XML
 <br>
 
 
-☀️ Sol quente <br>
 
-☀️ Sol frio <br>
-
-🌥 Nublado agradável <br>
-
-🌫 Névoa <br>
-
-❄ Neve <br>
-
-🌧 Chuva <br>
-
-🌤 Parcialmente nublado <br>
 
 
 ```
@@ -403,55 +487,6 @@ Expresion Type: XML
 
 
 
-🧠 Lógica de Negócio
-
-O fluxo aplica uma lógica de decisão baseada em:
-
-interpretação do código meteorológico
-
-faixa de temperatura
-
-classificação operacional
-
-Essa abordagem permite que sistemas externos tomem decisões como:
-
-adiar entregas
-
-alertar motoristas
-
-ajustar rotas
-
-planejar operações externas
-
-:rocket: Tecnologias Utilizadas
-
-SAP BTP Integration Suite
-
-SAP Cloud Integration (CPI)
-
-Open-Meteo Weather API
-
-JSON → XML Conversion
-
-XPath Routing
-
-Content Modifier
-
-HTTP Integration
-
-💡 Possíveis Evoluções do Projeto
-
-Este cenário pode ser expandido para:
-
-integração com SAP Event Mesh
-
-alertas automáticos para sistemas logísticos
-
-dashboards em SAP Analytics Cloud
-
-automação de rotas de entrega
-
-integração com sistemas IoT
 
 
 
