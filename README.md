@@ -261,11 +261,41 @@ Body:
     <status>${property.statustemperature}</status>
 </Response>
 ```
+Cada cenário gera uma mensagem específica para o sistema de logística.
 
+📦 Exemplo de Resposta da Integração
+
+```
+<Response>
+    <weather>CLOUDY</weather>
+    <city>São Paulo</city>
+    <message>Céu nublado com temperatura confortável. Clima estável.</message>
+    <temperature>22.3</temperature>
+    <status>AGRADAVEL</status>
+</Response>
 <br>
 
-### TESTE
+### Adicionando as Rotas
 ![Fluxo](imagens/Screenshot_21.png)
+Adicionando as rotas quando for FRIO, QUENTE ou AGRADAVEL
+
+```
+FRIO
+Expresion Type: XML
+/root/current_weather/weathercode = 45 or /root/current_weather/weathercode = 48 and /root/current_weather/temperature <= 15
+```
+
+```
+QUENTE
+Expresion Type: XML
+/root/current_weather/weathercode = 45 or /root/current_weather/weathercode = 48 and /root/current_weather/temperature >= 25
+```
+```
+AGRADAVEL
+Expresion Type: XML
+/root/current_weather/weathercode >= 71 and /root/current_weather/weathercode <= 86 and /root/current_weather/temperature > 15 and /root/current_weather/temperature <= 25
+```
+
 <br>
 
 ### TESTE
@@ -334,18 +364,7 @@ Body:
 
 🌤 Parcialmente nublado <br>
 
-Cada cenário gera uma mensagem específica para o sistema de logística.
 
-📦 Exemplo de Resposta da Integração
-
-```
-<Response>
-    <weather>CLOUDY</weather>
-    <city>São Paulo</city>
-    <message>Céu nublado com temperatura confortável. Clima estável.</message>
-    <temperature>22.3</temperature>
-    <status>AGRADAVEL</status>
-</Response>
 ```
 
 
