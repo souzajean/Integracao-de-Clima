@@ -563,7 +563,7 @@ Body:
 ```
 
 
-:sun_small_cloud: Parcialmente nublado agradável<br>
+:sun_behind_small_cloud: Parcialmente nublado agradável<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - AGRADAVEL
@@ -580,7 +580,7 @@ Body:
 </Response>
 ```
 
-:sun_small_cloud: Parcialmente nublado frio<br>
+:sun_behind_small_cloud: Parcialmente nublado frio<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - FRIO
@@ -597,7 +597,7 @@ Body:
 </Response>
 ```
 
-:sun_small_cloud: Parcialmente nublado quente<br>
+:sun_behind_small_cloud: Parcialmente nublado quente<br>
 ```
 Exchange Property
 Create - statustemperature - Constant - QUENTE
